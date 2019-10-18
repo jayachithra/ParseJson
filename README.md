@@ -1,7 +1,7 @@
 # ParseJson
 Python module to Parse nested json file
 
-Input: Nested json file content (in dict or list format)
+Input: Nested json file content (in dict or list format)<br/>
 Ouput: Returns a dict of all json fields and their data types. If the json format is consistent multiple dicts will be returned for each format.
 
 ## Steps
