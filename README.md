@@ -7,7 +7,7 @@ Ouput: Returns a dict of all json fields and their data types. If the json forma
 ## Steps
 1. Download the **nestedparse.py** file and place it inside the Lib/site_packages folder
 2. Load the json data as usual using <br/> 
-**with open("ictnl-2019-09.json") as datafile:    
+**with open("filename.json") as datafile:    
    &nbsp; data = json.load(datafile)**
 2. To call the parser use **nestedparse.parse(data)**. Make sure the original data is in either dict or list format.
 
